@@ -9,7 +9,7 @@ use Namshi\Notificator\NotificationInterface;
  */
 interface EntityNotificationInterface extends NotificationInterface
 {
-    public function deserialize();
-    public function serialize();
-    public function getEntityType();
+    public function getCode();
+    public function getSubjectType();
+    public function getObjectType();
 }
